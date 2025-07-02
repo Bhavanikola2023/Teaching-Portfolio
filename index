@@ -1,0 +1,615 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bhavani Kola | AI & EdTech Keynote Speaker | Digital Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            color: #333;
+            background-color: #f8f9fa;
+        }
+        .gradient-bg {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        }
+        .card {
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+        }
+        .section-title {
+            position: relative;
+            padding-bottom: 15px;
+            margin-bottom: 30px;
+        }
+        .section-title:after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 50px;
+            height: 3px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        }
+        .ai-gradient {
+            background: linear-gradient(135deg, #6366F1 0%, #8B5CF6 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .timeline-item {
+            position: relative;
+            padding-left: 30px;
+            margin-bottom: 20px;
+        }
+        .timeline-item:before {
+            content: '';
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 12px;
+            height: 12px;
+            border-radius: 50%;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        }
+        .timeline-item:after {
+            content: '';
+            position: absolute;
+            left: 5px;
+            top: 12px;
+            width: 2px;
+            height: calc(100% + 8px);
+            background: #ddd;
+        }
+        .timeline-item:last-child:after {
+            display: none;
+        }
+    </style>
+</head>
+<body class="bg-gray-50">
+    <!-- Hero Section -->
+    <header class="gradient-bg text-white py-20">
+        <div class="container mx-auto px-6 flex flex-col md:flex-row items-center">
+            <div class="md:w-1/2 flex flex-col items-start justify-center mb-8 md:mb-0">
+                <h1 class="text-4xl md:text-5xl font-bold leading-tight mb-2">Bhavani Kola</h1>
+                <h2 class="text-xl md:text-2xl mb-6">CEO & Founder, EclatechSolutions | AI & EdTech Keynote Speaker</h2>
+                <p class="text-lg mb-8">NVIDIA Certified Instructor | Ed.D. Candidate | Higher Ed Influencer | YouTube EdTech Innovator</p>
+                <div class="flex space-x-4">
+                    <a href="https://www.linkedin.com/in/bhavanikola" target="_blank" class="bg-white text-indigo-600 hover:bg-indigo-100 py-2 px-6 rounded-full font-medium transition duration-300">
+                        <i class="fab fa-linkedin mr-2"></i>LinkedIn
+                    </a>
+                    <a href="https://www.youtube.com/@BhavaniKola" target="_blank" class="bg-white text-red-600 hover:bg-red-100 py-2 px-6 rounded-full font-medium transition duration-300">
+                        <i class="fab fa-youtube mr-2"></i>YouTube
+                    </a>
+                </div>
+            </div>
+            <div class="md:w-1/2 flex justify-center md:justify-end">
+                <div class="rounded-full overflow-hidden border-4 border-white shadow-xl" style="width: 300px; height: 300px;">
+                    <img src="https://s3.us-west-000.backblazeb2.com/proxycurl/person/bhavanikola/profile?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=0004d7f56a0400b0000000001%2F20250507%2Fus-west-000%2Fs3%2Faws4_request&X-Amz-Date=20250507T024354Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=7747f13e0e1b692e821a33e0f2af91e4e5f565adc4452570c51043b2fa4621fd" alt="Bhavani Kola" class="object-cover w-full h-full">
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="container mx-auto px-6 py-12">
+        <!-- About Section -->
+        <section class="mb-20">
+            <h2 class="section-title text-3xl font-bold">About Me</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="md:col-span-2">
+                    <p class="text-lg mb-6">
+                        As an AI enthusiast with a zeal for transforming education through technology, I leverage my 24 years of math instruction to champion AI literacy. Currently pursuing my Ed.D. in Educational/Instructional Technology, I craft presentations that resonate and enlighten audiences about the potential of AI in education.
+                    </p>
+                    <p class="text-lg mb-6">
+                        My work demystifies AI, fostering an inclusive understanding that empowers educators and students alike. Leading by example, I chair an education foundation, tirelessly working to ensure access to quality education is matched by cutting-edge AI integration.
+                    </p>
+                    <p class="text-lg">
+                        As the Founder and CEO of Eclatech USA LLC, I deliver cutting-edge AI training, workshops, certifications, and engaging speaking engagements that inspire action and unlock potential. My journey began with curiosity and a passion for technology, which has evolved into a mission to bridge the AI gap and transform lives through education and innovation.
+                    </p>
+                </div>
+                <div class="bg-white rounded-lg shadow-lg p-6 card">
+                    <h3 class="text-xl font-semibold mb-4 text-indigo-600">Current Position</h3>
+                    <ul class="space-y-3">
+                        <li class="flex items-start">
+                            <i class="fas fa-briefcase text-indigo-500 mt-1 mr-3"></i>
+                            <div>
+                                <p class="font-medium">Dept Chair Mathematics</p>
+                                <p class="text-gray-600">Tarrant County College</p>
+                                <p class="text-gray-600">Since August 2013</p>
+                            </div>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-building text-indigo-500 mt-1 mr-3"></i>
+                            <div>
+                                <p class="font-medium">CEO & Founder</p>
+                                <p class="text-gray-600">Eclatech Solutions</p>
+                                <p class="text-gray-600">AI Training & Keynote Speaking</p>
+                            </div>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-laptop-code text-indigo-500 mt-1 mr-3"></i>
+                            <div>
+                                <p class="font-medium">Former Dept Chair</p>
+                                <p class="text-gray-600">Computer Science and IT</p>
+                                <p class="text-gray-600">Tarrant County College (2023-2024)</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- AI Expertise Section -->
+        <section class="mb-20">
+            <h2 class="section-title text-3xl font-bold">AI Expertise & Leadership</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="bg-white rounded-lg shadow-lg p-6 card">
+                    <div class="text-center mb-6">
+                        <div class="inline-flex items-center justify-center w-16 h-16 rounded-full bg-indigo-100 text-indigo-500 mb-4">
+                            <i class="fas fa-brain text-2xl"></i>
+                        </div>
+                        <h3 class="text-xl font-semibold">AI Education</h3>
+                    </div>
+                    <ul class="space-y-3">
+                        <li class="flex items-center">
+                            <i class="fas fa-check-circle text-green-500 mr-3"></i>
+                            <span>NVIDIA Certified AI Instructor</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-check-circle text-green-500 mr-3"></i>
+                            <span>AI Literacy Champion</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-check-circle text-green-500 mr-3"></i>
+                            <span>EdTech Integration Specialist</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-check-circle text-green-500 mr-3"></i>
+                            <span>AI Workshop Facilitator</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-check-circle text-green-500 mr-3"></i>
+                            <span>Prompt Engineering Expert</span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="bg-white rounded-lg shadow-lg p-6 card">
+                    <div class="text-center mb-6">
+                        <div class="inline-flex items-center justify-center w-16 h-16 rounded-full bg-indigo-100 text-indigo-500 mb-4">
+                            <i class="fas fa-certificate text-2xl"></i>
+                        </div>
+                        <h3 class="text-xl font-semibold">Technical Certifications</h3>
+                    </div>
+                    <ul class="space-y-3">
+                        <li class="flex items-center">
+                            <i class="fas fa-check-circle text-green-500 mr-3"></i>
+                            <span>NVIDIA Deep Learning Certified</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-check-circle text-green-500 mr-3"></i>
+                            <span>AWS Machine Learning (I & II)</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-check-circle text-green-500 mr-3"></i>
+                            <span>NC3 Data Analytics Certified</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-check-circle text-green-500 mr-3"></i>
+                            <span>Adobe Campus Leader</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-check-circle text-green-500 mr-3"></i>
+                            <span>Microsoft Innovative Educator</span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="bg-white rounded-lg shadow-lg p-6 card">
+                    <div class="text-center mb-6">
+                        <div class="inline-flex items-center justify-center w-16 h-16 rounded-full bg-indigo-100 text-indigo-500 mb-4">
+                            <i class="fas fa-chalkboard-teacher text-2xl"></i>
+                        </div>
+                        <h3 class="text-xl font-semibold">Training Impact</h3>
+                    </div>
+                    <ul class="space-y-3">
+                        <li class="flex items-center">
+                            <i class="fas fa-check-circle text-green-500 mr-3"></i>
+                            <span>Trained 1,000+ educators in AI literacy</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-check-circle text-green-500 mr-3"></i>
+                            <span>Developed AI-powered curriculum modules</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-check-circle text-green-500 mr-3"></i>
+                            <span>Created stackable AI micro-credentials</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-check-circle text-green-500 mr-3"></i>
+                            <span>Nationwide workshop facilitation</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-check-circle text-green-500 mr-3"></i>
+                            <span>Corporate AI training development</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Speaking Engagements Section -->
+        <section class="mb-20">
+            <h2 class="section-title text-3xl font-bold">Speaking Engagements</h2>
+            <div class="mb-8">
+                <p class="text-lg">
+                    As a dynamic keynote speaker specializing in AI and EdTech, I deliver engaging presentations that demystify complex technologies and inspire educators to embrace innovation. My speaking engagements combine expert knowledge with actionable insights, leaving audiences empowered to implement AI strategies in their own environments.
+                </p>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <div class="bg-white rounded-lg shadow-lg overflow-hidden card">
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold mb-2">Demystifying AI in Education</h3>
+                        <p class="text-gray-600 mb-4">Faculty Institute, Huston-Tillotson University | August 2023</p>
+                        <p class="mb-4">
+                            A comprehensive presentation introducing educators to AI fundamentals, applications in education, and strategies for ethical implementation in the classroom.
+                        </p>
+                        <div class="flex items-center text-sm text-indigo-600">
+                            <i class="fas fa-tag mr-2"></i>
+                            <span>AI Literacy</span>
+                            <i class="fas fa-graduation-cap mx-2"></i>
+                            <span>EdTech</span>
+                            <i class="fas fa-users mx-2"></i>
+                            <span>Faculty Development</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="bg-white rounded-lg shadow-lg overflow-hidden card">
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold mb-2">Generative AI & Security</h3>
+                        <p class="text-gray-600 mb-4">EC-Council University CyberTalk | March 2025</p>
+                        <p class="mb-4">
+                            An exploration of the real-world impact of AI and Generative AI on cybersecurity and threat intelligence, with practical applications for security professionals.
+                        </p>
+                        <div class="flex items-center text-sm text-indigo-600">
+                            <i class="fas fa-shield-alt mr-2"></i>
+                            <span>Cybersecurity</span>
+                            <i class="fas fa-robot mx-2"></i>
+                            <span>Generative AI</span>
+                            <i class="fas fa-lock mx-2"></i>
+                            <span>Threat Intelligence</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="bg-white rounded-lg shadow-lg overflow-hidden card">
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold mb-2">The Future of Education with AI</h3>
+                        <p class="text-gray-600 mb-4">ASU GSV AI Show | 2025</p>
+                        <p class="mb-4">
+                            A forward-looking keynote on how AI is reshaping educational paradigms, with emphasis on prompt engineering, personalized learning, and preparing students for an AI-integrated future.
+                        </p>
+                        <div class="flex items-center text-sm text-indigo-600">
+                            <i class="fas fa-lightbulb mr-2"></i>
+                            <span>Innovation</span>
+                            <i class="fas fa-user-graduate mx-2"></i>
+                            <span>Higher Education</span>
+                            <i class="fas fa-chart-line mx-2"></i>
+                            <span>Future Trends</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="bg-white rounded-lg shadow-lg overflow-hidden card">
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold mb-2">AI Literacy Initiatives</h3>
+                        <p class="text-gray-600 mb-4">Texas Education Foundation Network | 2024</p>
+                        <p class="mb-4">
+                            A practical session on implementing AI literacy programs in educational institutions, focusing on faculty development, curriculum integration, and ethical considerations.
+                        </p>
+                        <div class="flex items-center text-sm text-indigo-600">
+                            <i class="fas fa-book mr-2"></i>
+                            <span>Literacy</span>
+                            <i class="fas fa-chalkboard mx-2"></i>
+                            <span>Curriculum</span>
+                            <i class="fas fa-handshake mx-2"></i>
+                            <span>Community Engagement</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- YouTube & Content Section -->
+        <section class="mb-20">
+            <h2 class="section-title text-3xl font-bold">YouTube & Content Creation</h2>
+            <div class="flex flex-col md:flex-row gap-8 items-start">
+                <div class="md:w-1/2">
+                    <div class="bg-white rounded-lg shadow-lg p-6 mb-6 card">
+                        <h3 class="text-xl font-semibold mb-4 flex items-center">
+                            <i class="fab fa-youtube text-red-600 mr-3 text-2xl"></i>
+                            YouTube Channel
+                        </h3>
+                        <p class="mb-4">
+                            My YouTube channel serves as a hub for AI education resources, tutorials, and insights. I create content that helps educators and professionals leverage technology to enhance teaching and learning.
+                        </p>
+                        <p class="font-medium mb-2">Channel Focus:</p>
+                        <ul class="list-disc pl-5 mb-6 space-y-1">
+                            <li>AI tools for education</li>
+                            <li>Prompt engineering tutorials</li>
+                            <li>Educational technology reviews</li>
+                            <li>Canvas LMS customization</li>
+                            <li>Interactive PowerPoint techniques</li>
+                            <li>AI literacy fundamentals</li>
+                        </ul>
+                        <a href="https://www.youtube.com/@BhavaniKola" target="_blank" class="bg-red-600 hover:bg-red-700 text-white py-2 px-6 rounded-full font-medium inline-flex items-center transition duration-300">
+                            <i class="fab fa-youtube mr-2"></i>
+                            Visit My YouTube Channel
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="md:w-1/2">
+                    <div class="bg-white rounded-lg shadow-lg p-6 card">
+                        <h3 class="text-xl font-semibold mb-4">Popular Content Series</h3>
+                        <div class="space-y-6">
+                            <div class="border-b pb-4">
+                                <h4 class="font-medium text-lg mb-1">Canvas LMS Enhancements</h4>
+                                <p class="text-gray-600 mb-2">Techniques for creating engaging, interactive Canvas pages</p>
+                                <div class="flex items-center text-sm">
+                                    <i class="fas fa-play-circle text-red-600 mr-1"></i>
+                                    <span>Tutorial Series</span>
+                                </div>
+                            </div>
+                            
+                            <div class="border-b pb-4">
+                                <h4 class="font-medium text-lg mb-1">Interactive PowerPoint</h4>
+                                <p class="text-gray-600 mb-2">Creating interactive, engaging presentations for classroom use</p>
+                                <div class="flex items-center text-sm">
+                                    <i class="fas fa-play-circle text-red-600 mr-1"></i>
+                                    <span>How-to Guides</span>
+                                </div>
+                            </div>
+                            
+                            <div class="border-b pb-4">
+                                <h4 class="font-medium text-lg mb-1">AI Tool Reviews</h4>
+                                <p class="text-gray-600 mb-2">In-depth analysis of AI tools for educational applications</p>
+                                <div class="flex items-center text-sm">
+                                    <i class="fas fa-play-circle text-red-600 mr-1"></i>
+                                    <span>Review Series</span>
+                                </div>
+                            </div>
+                            
+                            <div>
+                                <h4 class="font-medium text-lg mb-1">Public Speaking with AI</h4>
+                                <p class="text-gray-600 mb-2">Using AI tools to enhance presentations and public speaking</p>
+                                <div class="flex items-center text-sm">
+                                    <i class="fas fa-play-circle text-red-600 mr-1"></i>
+                                    <span>Skill Development</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Education & Career Section -->
+        <section class="mb-20">
+            <h2 class="section-title text-3xl font-bold">Education & Career Timeline</h2>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-12">
+                <div>
+                    <h3 class="text-xl font-semibold mb-6 flex items-center">
+                        <i class="fas fa-graduation-cap text-indigo-600 mr-3"></i>
+                        Education
+                    </h3>
+                    
+                    <div class="space-y-8">
+                        <div class="timeline-item">
+                            <h4 class="font-medium text-lg">Doctor of Education - EdD</h4>
+                            <p class="text-gray-600">Educational/Instructional Technology</p>
+                            <p class="text-gray-600">American College of Education</p>
+                            <p class="text-gray-600 text-sm">2023 - 2026 (Expected)</p>
+                        </div>
+                        
+                        <div class="timeline-item">
+                            <h4 class="font-medium text-lg">Master of Arts - MA</h4>
+                            <p class="text-gray-600">Mathematics</p>
+                            <p class="text-gray-600">The City University of New York</p>
+                            <p class="text-gray-600 text-sm">2003 - 2005</p>
+                        </div>
+                        
+                        <div class="timeline-item">
+                            <h4 class="font-medium text-lg">Master of Science - MS</h4>
+                            <p class="text-gray-600">Electrical and Electronics Engineering</p>
+                            <p class="text-gray-600">Fairleigh Dickinson University</p>
+                            <p class="text-gray-600 text-sm">2000 - 2002</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div>
+                    <h3 class="text-xl font-semibold mb-6 flex items-center">
+                        <i class="fas fa-briefcase text-indigo-600 mr-3"></i>
+                        Professional Experience
+                    </h3>
+                    
+                    <div class="space-y-8">
+                        <div class="timeline-item">
+                            <h4 class="font-medium text-lg">Dept Chair Mathematics</h4>
+                            <p class="text-gray-600">Tarrant County College</p>
+                            <p class="text-gray-600 text-sm">2013 - Present</p>
+                            <p class="mt-1">Leading academic innovation and curriculum development</p>
+                        </div>
+                        
+                        <div class="timeline-item">
+                            <h4 class="font-medium text-lg">Dept Chair Computer Science and IT</h4>
+                            <p class="text-gray-600">Tarrant County College</p>
+                            <p class="text-gray-600 text-sm">2023 - 2024</p>
+                            <p class="mt-1">Overseeing technology curriculum and faculty development</p>
+                        </div>
+                        
+                        <div class="timeline-item">
+                            <h4 class="font-medium text-lg">Adjunct Faculty Instructor</h4>
+                            <p class="text-gray-600">West Coast University</p>
+                            <p class="text-gray-600 text-sm">2012 - 2013</p>
+                        </div>
+                        
+                        <div class="timeline-item">
+                            <h4 class="font-medium text-lg">Adjunct Instructor</h4>
+                            <p class="text-gray-600">John Jay College (CUNY)</p>
+                            <p class="text-gray-600 text-sm">2002 - 2012</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Awards & Recognition -->
+        <section class="mb-20">
+            <h2 class="section-title text-3xl font-bold">Awards & Recognition</h2>
+            
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                <div class="bg-white rounded-lg shadow-lg p-6 card">
+                    <div class="flex items-center mb-4">
+                        <div class="rounded-full bg-yellow-100 p-3 mr-4">
+                            <i class="fas fa-award text-yellow-600 text-xl"></i>
+                        </div>
+                        <div>
+                            <h3 class="font-semibold">Microsoft Innovative Educator</h3>
+                            <p class="text-gray-600">November 2020</p>
+                        </div>
+                    </div>
+                    <p>Featured Educator for the month of November, recognizing excellence in educational technology integration.</p>
+                </div>
+                
+                <div class="bg-white rounded-lg shadow-lg p-6 card">
+                    <div class="flex items-center mb-4">
+                        <div class="rounded-full bg-blue-100 p-3 mr-4">
+                            <i class="fas fa-trophy text-blue-600 text-xl"></i>
+                        </div>
+                        <div>
+                            <h3 class="font-semibold">Chancellors Exemplary Teaching Award Nominee</h3>
+                            <p class="text-gray-600">August 2019</p>
+                        </div>
+                    </div>
+                    <p>Nominated for exceptional teaching methods and student engagement at Tarrant County College.</p>
+                </div>
+                
+                <div class="bg-white rounded-lg shadow-lg p-6 card">
+                    <div class="flex items-center mb-4">
+                        <div class="rounded-full bg-green-100 p-3 mr-4">
+                            <i class="fas fa-certificate text-green-600 text-xl"></i>
+                        </div>
+                        <div>
+                            <h3 class="font-semibold">NVIDIA Certified Instructor</h3>
+                            <p class="text-gray-600">Fundamentals of Deep Learning</p>
+                        </div>
+                    </div>
+                    <p>Elite certification recognizing expertise in teaching NVIDIA's deep learning curriculum to educators and professionals.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section>
+            <h2 class="section-title text-3xl font-bold">Let's Connect</h2>
+            
+            <div class="bg-white rounded-lg shadow-lg p-8 card">
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                    <div>
+                        <h3 class="text-2xl font-semibold mb-4 ai-gradient">Ready to Transform Your Organization with AI?</h3>
+                        <p class="text-lg mb-6">
+                            Whether you need a dynamic keynote speaker, AI literacy training for your team, or consulting on educational technology implementation, I'm here to help your organization thrive in the AI era.
+                        </p>
+                        <div class="space-y-4">
+                            <div class="flex items-start">
+                                <i class="fas fa-bullhorn text-indigo-600 mt-1 mr-3"></i>
+                                <div>
+                                    <h4 class="font-medium">Speaking Engagements</h4>
+                                    <p class="text-gray-600">Keynotes, workshops, and panel discussions on AI in education</p>
+                                </div>
+                            </div>
+                            <div class="flex items-start">
+                                <i class="fas fa-users-cog text-indigo-600 mt-1 mr-3"></i>
+                                <div>
+                                    <h4 class="font-medium">Training & Development</h4>
+                                    <p class="text-gray-600">Customized AI literacy programs for educational institutions</p>
+                                </div>
+                            </div>
+                            <div class="flex items-start">
+                                <i class="fas fa-lightbulb text-indigo-600 mt-1 mr-3"></i>
+                                <div>
+                                    <h4 class="font-medium">Consulting</h4>
+                                    <p class="text-gray-600">Strategic guidance on AI implementation in educational settings</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="flex flex-col justify-center">
+                        <h3 class="text-xl font-semibold mb-6">Connect With Me</h3>
+                        <div class="space-y-6">
+                            <a href="https://www.linkedin.com/in/bhavanikola" target="_blank" class="flex items-center p-4 bg-gray-50 hover:bg-gray-100 rounded-lg transition duration-300">
+                                <i class="fab fa-linkedin text-3xl text-blue-600 mr-4"></i>
+                                <div>
+                                    <h4 class="font-medium">LinkedIn</h4>
+                                    <p class="text-gray-600">Connect professionally</p>
+                                </div>
+                                <i class="fas fa-chevron-right ml-auto text-gray-400"></i>
+                            </a>
+                            
+                            <a href="https://www.youtube.com/@BhavaniKola" target="_blank" class="flex items-center p-4 bg-gray-50 hover:bg-gray-100 rounded-lg transition duration-300">
+                                <i class="fab fa-youtube text-3xl text-red-600 mr-4"></i>
+                                <div>
+                                    <h4 class="font-medium">YouTube</h4>
+                                    <p class="text-gray-600">Watch my latest content</p>
+                                </div>
+                                <i class="fas fa-chevron-right ml-auto text-gray-400"></i>
+                            </a>
+                            
+                            <a href="https://www.eclatechusa.com/about-ai-training" target="_blank" class="flex items-center p-4 bg-gray-50 hover:bg-gray-100 rounded-lg transition duration-300">
+                                <i class="fas fa-globe text-3xl text-green-600 mr-4"></i>
+                                <div>
+                                    <h4 class="font-medium">Eclatech Solutions</h4>
+                                    <p class="text-gray-600">Explore training options</p>
+                                </div>
+                                <i class="fas fa-chevron-right ml-auto text-gray-400"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="gradient-bg text-white py-8">
+        <div class="container mx-auto px-6">
+            <div class="text-center">
+                <h3 class="text-xl font-semibold mb-2">Bhavani Kola</h3>
+                <p>CEO & Founder, EclatechSolutions | AI & EdTech Keynote Speaker</p>
+                <div class="mt-6 flex justify-center space-x-4">
+                    <a href="https://www.linkedin.com/in/bhavanikola" target="_blank" class="text-white hover:text-gray-300 transition duration-300">
+                        <i class="fab fa-linkedin text-2xl"></i>
+                    </a>
+                    <a href="https://www.youtube.com/@BhavaniKola" target="_blank" class="text-white hover:text-gray-300 transition duration-300">
+                        <i class="fab fa-youtube text-2xl"></i>
+                    </a>
+                    <a href="https://x.com/BkolaMath" target="_blank" class="text-white hover:text-gray-300 transition duration-300">
+                        <i class="fab fa-twitter text-2xl"></i>
+                    </a>
+                </div>
+                <p class="mt-6 text-sm opacity-75">© 2025 Bhavani Kola. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
