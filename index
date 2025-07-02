@@ -90,7 +90,7 @@
             </div>
             <div class="md:w-1/2 flex justify-center md:justify-end">
                 <div class="rounded-full overflow-hidden border-4 border-white shadow-xl" style="width: 300px; height: 300px;">
-                    <img src="https://s3.us-west-000.backblazeb2.com/proxycurl/person/bhavanikola/profile?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=0004d7f56a0400b0000000001%2F20250507%2Fus-west-000%2Fs3%2Faws4_request&X-Amz-Date=20250507T024354Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=7747f13e0e1b692e821a33e0f2af91e4e5f565adc4452570c51043b2fa4621fd" alt="Bhavani Kola" class="object-cover w-full h-full">
+                    <img src="https://github.com/Bhavanikola2023/Teaching-Portfolio/commit/cfada0b8ad3bc67bbbbecc8ba57741ba282ad714" alt="Bhavani Kola" class="object-cover w-full h-full">
                 </div>
             </div>
         </div>
